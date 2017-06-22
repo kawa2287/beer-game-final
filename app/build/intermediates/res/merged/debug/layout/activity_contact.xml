@@ -218,7 +218,8 @@
             android:text="Send"
             android:id="@+id/sendButton"
             android:background = "@drawable/roundedbutton"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp" />
     </LinearLayout>
 
 </RelativeLayout>

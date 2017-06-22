@@ -25,6 +25,7 @@ package mkawa.okhttp;
     import android.widget.GridLayout;
     import android.widget.ImageView;
     import android.widget.LinearLayout;
+    import android.widget.ProgressBar;
     import android.widget.TextView;
     import android.widget.Toast;
 
@@ -329,6 +330,11 @@ public class contactActivity extends Activity {
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
+                    ProgressBar loadingCircle = new ProgressBar(getApplicationContext());
+                    LinearLayout mainWindow = (LinearLayout) findViewById(R.id.userStatChart);
+                    mainWindow.removeAllViewsInLayout();
+                    mainWindow.addView(loadingCircle);
+
                     //re run spreadsheet query
                     try {
                         requestSpreadsheetData(query, user);
