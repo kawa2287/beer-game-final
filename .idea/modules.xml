@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/other_lib/AndEngine-GLES2-AnchorCenter/AndEngine-GLES2-AnchorCenter.iml" filepath="$PROJECT_DIR$/other_lib/AndEngine-GLES2-AnchorCenter/AndEngine-GLES2-AnchorCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other_lib/AndEnginePhysicsBox2DExtension-GLES2-AnchorCenter/AndEnginePhysicsBox2DExtension-GLES2-AnchorCenter.iml" filepath="$PROJECT_DIR$/other_lib/AndEnginePhysicsBox2DExtension-GLES2-AnchorCenter/AndEnginePhysicsBox2DExtension-GLES2-AnchorCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okHTTP.iml" filepath="$PROJECT_DIR$/okHTTP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other_lib/other_lib.iml" filepath="$PROJECT_DIR$/other_lib/other_lib.iml" />
+    </modules>
+  </component>
+</project>

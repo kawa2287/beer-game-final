@@ -1,0 +1,3 @@
+include ':app'
+include ':other_lib:AndEngine-GLES2-AnchorCenter'
+include ':other_lib:AndEnginePhysicsBox2DExtension-GLES2-AnchorCenter'
