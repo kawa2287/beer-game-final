@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mkawa.okhttp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/creamclub"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="DATABASE"
+            android:value="token_table.db" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="TRUE" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="mkawa.okhttp" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+
+        <activity
+            android:name="mkawa.okhttp.contactActivity"
+            android:label="Submit Beer"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="mkawa.okhttp.settings"
+            android:label="Settings" />
+        <activity
+            android:name="mkawa.okhttp.beerSearch"
+            android:label="Search Beer" />
+        <activity android:name="mkawa.okhttp.LeaderBoard" />
+        <activity
+            android:name="mkawa.okhttp.Market"
+            android:label="Market" />
+        <activity android:name="mkawa.okhttp.TradeShare" />
+        <activity android:name="mkawa.okhttp.UserStatstics" />
+        <activity android:name="mkawa.okhttp.Dashboard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mkawa.okhttp.UserNameEntry"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_user_name_entry"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name="mkawa.okhttp.SelectTeam" />
+        <activity
+            android:name="mkawa.okhttp.Drop"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|mcc|mnc"
+            android:screenOrientation="landscape" />
+        <activity android:name="mkawa.okhttp.CandleStickTokens" />
+    </application>
+
+</manifest>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkSlateGray"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context="mkawa.okhttp.Dashboard">
+
+    <!-- TEAM HEADER-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight=".20"
+        android:paddingTop="10sp"
+        android:paddingBottom="2sp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/foxes"
+            android:layout_margin="5dp"
+            android:id="@+id/teamLayout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/teamNameText"
+                android:text="@string/foxes"
+                android:textSize="30sp"
+                android:textColor="@color/FoxesLight"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:id="@+id/teamLogo"
+                android:elevation="5dp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/foxes"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/playerNameText"
+                android:textSize="30sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!-- CHART AND STATS -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3">
+        <!--DUMMY VERTICAL SPACE VIEW-->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/chartAreaFakeV"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/chartAreaFakeV">
+            <com.hookedonplay.decoviewlib.DecoView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:id="@+id/teamChart"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/mainTeamPercentageComplete"
+                android:textSize="30sp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/chartAreaFakeV"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            >
+            <!-- HEADERS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/teamHeader"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/RPPD"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/PPT"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/OPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/percentComplete"/>
+            </LinearLayout>
+
+            <!-- 1ST ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/rank1image" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/rank1RPPD"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank1PPT"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank1OPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank1percentComplete"/>
+            </LinearLayout>
+
+            <!-- 2ND ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/rank2image"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank2RPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank2PPT"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank2OPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank2percentComplete"/>
+            </LinearLayout>
+
+            <!-- 3RD ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/rank3image"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank3RPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank3PPT"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank3OPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank3percentComplete"/>
+            </LinearLayout>
+
+            <!-- 4TH ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/rank4image"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank4RPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank4PPT"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank4OPPD"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/rank4percentComplete"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <!-- BUTTON LAYOUT -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:id="@+id/dashboardButtons"
+        >
+
+        <!--DUMMY VERTICAL SPACE VIEW-->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/fakeV"
+            />
+
+        <!-- LEFT SIDE BUTTONS -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/fakeV"
+            >
+
+            <!-- SEARCH BUTTON -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedbutton"
+                android:padding="10sp"
+                android:src="@mipmap/searchbeer"
+                android:onClick="selectDestination"
+                android:elevation="5dp"
+                android:id="@+id/searchBeer"/>
+
+            <!-- LEADERBOARD BUTTON -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:layout_margin="5dp"
+                android:padding="10sp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/leaderboard"
+                android:onClick="selectDestination"
+                android:elevation="5dp"
+                android:id="@+id/leaderBoard"/>
+
+            <!-- MARKET BUTTON -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="10sp"
+                android:background="@drawable/roundedbutton"
+                android:elevation="5dp"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/market"
+                android:onClick="selectDestination"
+                android:id="@+id/market"/>
+
+        </LinearLayout>
+
+        <!-- RIGHT SIDE BUTTONS -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/fakeV"
+            >
+
+            <!-- TOKEN BUTTON -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedbutton"
+                android:padding="10sp"
+                android:src="@mipmap/tokens"
+                android:onClick="selectDestination"
+                android:elevation="5dp"
+                android:id="@+id/tokens"/>
+
+            <!-- SETTINGS BUTTON -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedbutton"
+                android:padding="10sp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/settings"
+                android:onClick="selectDestination"
+                android:elevation="5dp"
+                android:id="@+id/action_settings"/>
+
+            <!-- USER STATS BUTTON -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedbutton"
+                android:src="@mipmap/userstats"
+                android:onClick="selectDestination"
+                android:elevation="5dp"
+                android:padding="10sp"
+                android:id="@+id/userStats"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

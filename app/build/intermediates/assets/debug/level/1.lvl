@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level width="480" height="800">
+    <entity x="0" y="400" type="wall"/>
+    <entity x="480" y="400" type="wall"/>
+    <entity x="40" y="0" type="containerWall"/>
+    <entity x="80" y="0" type="containerWall"/>
+    <entity x="120" y="0" type="containerWall"/>
+    <entity x="160" y="0" type="containerWall"/>
+    <entity x="200" y="0" type="containerWall"/>
+    <entity x="240" y="0" type="containerWall"/>
+    <entity x="280" y="0" type="containerWall"/>
+    <entity x="320" y="0" type="containerWall"/>
+    <entity x="360" y="0" type="containerWall"/>
+    <entity x="400" y="0" type="containerWall"/>
+    <entity x="440" y="0" type="containerWall"/>
+
+</level>

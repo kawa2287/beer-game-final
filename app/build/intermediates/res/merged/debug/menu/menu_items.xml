@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="baseActivity">
+
+    <item
+        android:id="@+id/searchBeer"
+        android:icon="@mipmap/ic_action_search"
+        android:title="@string/beer_search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/ic_action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/viewLeaderBoard"
+        android:title="@string/view_leaderboard"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/viewStats"
+        android:title="@string/view_stats"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/market"
+        android:title="@string/market"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="@string/dashboard"
+        app:showAsAction="never"/>
+
+</menu>

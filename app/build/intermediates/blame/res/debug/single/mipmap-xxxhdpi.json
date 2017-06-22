@@ -1,0 +1,358 @@
+[
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/experimental.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/experimental.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/coffee.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/coffee.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/bieredegarde.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/bieredegarde.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ch.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/ch.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/bock.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/bock.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/goldspade.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/goldspade.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/wine.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/wine.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/specialty.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/specialty.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/altbier.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/altbier.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/cider.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/cider.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/pumpkin.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/pumpkin.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/sweet.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/sweet.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/clubs_trade.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/clubs_trade.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/wit.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/wit.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/pilsener.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/pilsener.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/american.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/american.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/helles.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/helles.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ie.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/ie.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/hefe.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/hefe.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/brett.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/brett.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/historical.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/historical.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/brown.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/brown.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/leaderboard.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/leaderboard.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/sour.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/sour.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/us.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/us.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ale.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/ale.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/blonde.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/blonde.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/stout.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/stout.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/lager.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/lager.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/cz.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/cz.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/esb.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/esb.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/tropical.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/tropical.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/diamonds_trade.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/diamonds_trade.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/settings.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/settings.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/lambic.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/lambic.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/belgian.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/belgian.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/marzen.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/marzen.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/lemurs.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/lemurs.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/spades_trade.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/spades_trade.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ginjo.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/ginjo.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/amber.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/amber.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/creamclub.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/creamclub.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/jp.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/jp.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/at.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/at.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/rats.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/rats.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/scottish.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/scottish.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/strong.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/strong.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/porter.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/porter.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/userstats.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/userstats.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/blackheart.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/blackheart.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/tokens.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/tokens.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/german.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/german.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/bluediamond.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/bluediamond.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/left_arrow.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/left_arrow.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/mx.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/mx.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/right_arrow.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/right_arrow.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/english.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/english.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/searchbeer.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/searchbeer.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/foxes.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/foxes.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/fruit.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/fruit.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/wheat.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/wheat.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/imperial.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/imperial.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/session.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/session.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/apa.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/apa.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/chocolate.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/chocolate.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/irish.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/irish.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/dunkel.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/dunkel.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/field.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/field.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/wood.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/wood.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/honey.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/honey.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/oktoberfest.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/oktoberfest.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/heavy.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/heavy.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/spice.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/spice.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/lizards.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/lizards.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/wild.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/wild.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/hearts_trade.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/hearts_trade.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/market.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/market.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ipa.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/ipa.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/dk.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/dk.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ca.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/ca.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/chili.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/chili.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/red.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/red.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/saison.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/saison.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/smoke.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/smoke.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/kolsch.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/kolsch.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/gb.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/gb.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/de.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/de.png"
+    },
+    {
+        "merged": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/black.png",
+        "source": "/Users/mattkawahara/AndroidStudioProjects/okHTTP/app/src/main/res/mipmap-xxxhdpi/black.png"
+    }
+]

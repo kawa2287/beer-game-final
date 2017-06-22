@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="0dp"
+    android:background="@color/DarkSlateGray"
+    tools:context="mkawa.okhttp.TradeShare"
+    android:orientation="vertical">
+
+    <!-- MAIN HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:id="@+id/tradeheader"
+            android:text="TRADE SHARES TO PLAY POINT TOKENS"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+
+    <!--- CLICKED TOKEN AREA -->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:id="@+id/clickToken">
+
+        <!-- FAKE VIEW TO SPLIT LEFT AND RIGHT -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/fakeTop"
+            />
+
+        <!-- LEFT LAYOUT [TOKEN IMAGE] -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/fakeTop">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="30dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/mainTokenView"
+                android:src="@mipmap/chili"/>
+
+            <com.hookedonplay.decoviewlib.DecoView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="20dp"
+                android:id="@+id/dynamicArcChart"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stockLeft"
+                android:layout_above="@+id/stockLeftTV"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stockLeftTV"
+                android:text="SHARES LEFT"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+
+        <!-- RIGHT LAYOUT [POINT CHART] -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/fakeTop"
+            android:id="@+id/pointContainer">
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <!--- BOT SELECTOR -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:checkedButton="@+id/drinkSelect"
+        android:layout_weight="0.4"
+        android:id="@+id/radioGroup"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <!-- VERTICAL USELESS VIEW -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/fakeRadioV"/>
+
+        <!-- HORIZONTAL USELESS VIEW -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/fakeRadioH"/>
+
+        <!-- DRINK POINT -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="increaseVal"
+            android:id="@+id/drinkClick"
+            android:layout_toStartOf="@id/fakeRadioV"
+            android:layout_above="@id/fakeRadioH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:elevation="5dp"
+                android:layout_margin="5dp"
+                android:src="@mipmap/spades_trade"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/drinkCounter"
+                android:textSize="60sp"
+                android:elevation="5dp"
+                android:text="2"
+                android:textColor="@color/SlateGray"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="10dp"
+                android:paddingEnd="40dp"/>
+        </RelativeLayout>
+
+
+        <!-- OUNCE POINT -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="increaseVal"
+            android:id="@+id/ozClick"
+            android:layout_toEndOf="@id/fakeRadioV"
+            android:layout_above="@id/fakeRadioH"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:elevation="5dp"
+                android:layout_margin="5dp"
+                android:src="@mipmap/diamonds_trade"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ozCounter"
+                android:textSize="60sp"
+                android:elevation="5dp"
+                android:text="2"
+                android:textColor="@color/SlateGray"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="10dp"
+                android:paddingEnd="40dp"/>
+
+        </RelativeLayout>
+
+
+        <!-- ABV POINT -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="increaseVal"
+            android:id="@+id/abvClick"
+            android:layout_toStartOf="@id/fakeRadioV"
+            android:layout_below="@id/fakeRadioH"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:elevation="5dp"
+                android:layout_margin="5dp"
+                android:src="@mipmap/hearts_trade"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/abvCounter"
+                android:textSize="60sp"
+                android:elevation="5dp"
+                android:text="2"
+                android:textColor="@color/SlateGray"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="10dp"
+                android:paddingEnd="40dp"/>
+        </RelativeLayout>
+
+
+        <!-- IBU POINT -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="increaseVal"
+            android:id="@+id/ibuClick"
+            android:layout_toEndOf="@id/fakeRadioV"
+            android:layout_below="@id/fakeRadioH"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:elevation="5dp"
+                android:layout_margin="5dp"
+                android:src="@mipmap/clubs_trade"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ibuCounter"
+                android:textSize="60sp"
+                android:elevation="5dp"
+                android:text="2"
+                android:textColor="@color/SlateGray"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="10dp"
+                android:paddingEnd="40dp"/>
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <!--- SUBMIT TRADE BUTTON -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:id="@+id/executeTrade">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TRADE"
+                android:id="@+id/tradeButton"
+                android:background = "@drawable/roundedbutton"
+                android:onClick="executeTrade"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <!--- RESET BUTTON -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="RESET"
+                android:id="@+id/resetButton"
+                android:background = "@drawable/roundedbutton"
+                android:onClick="resetVal"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

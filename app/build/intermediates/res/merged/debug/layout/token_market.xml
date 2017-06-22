@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:background="@color/DarkGray"
+    android:id="@+id/tokenLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <!-- TITLE -->
+        <LinearLayout
+            android:layout_width="20sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:id="@+id/tokenTitle"
+            android:background="@drawable/token_title">
+
+
+        </LinearLayout>
+
+        <!-- STATS -->
+        <RelativeLayout
+            android:layout_width="60sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@color/LightSlateGray"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tokenCurVal"/>
+
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@color/LightSlateGray"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/tokenBaseVal"/>
+
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@color/LightSlateGray"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/tokenPurseCount"/>
+
+        </RelativeLayout>
+
+        <!-- GRAPH -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/DarkSlateGray">
+            <com.github.mikephil.charting.charts.CombinedChart
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/tokenGraph">
+
+            </com.github.mikephil.charting.charts.CombinedChart>
+
+        </LinearLayout>
+
+        <!-- ICON -->
+        <RelativeLayout
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:background="@drawable/icon_grad">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:padding="5dp"
+                android:id="@+id/tokenIcon"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

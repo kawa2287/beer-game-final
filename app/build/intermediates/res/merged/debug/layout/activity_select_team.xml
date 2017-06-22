@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/DarkSlateGray"
+    tools:context="mkawa.okhttp.UserNameEntry">
+
+    <TextView
+        android:id="@+id/teamSelectText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="SELECT TEAM"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="50sp"
+        />
+
+    <!-- RATCHET RATS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:paddingTop="10sp"
+        android:paddingBottom="2sp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rats"
+            android:id="@+id/ratsLayout"
+            android:onClick="selectTeam">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratsText"
+                android:text="@string/rats"
+                android:textSize="40sp"
+                android:textColor="@color/RatsDark"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/rats"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- LIT LEMURS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:paddingTop="2sp"
+        android:paddingBottom="2sp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lemurs"
+            android:id="@+id/lemursLayout"
+            android:onClick="selectTeam">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lemursText"
+                android:text="@string/lemurs"
+                android:textSize="40sp"
+                android:textColor="@color/LemursLight"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/lemurs"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- FADED FOXES -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:paddingTop="2sp"
+        android:paddingBottom="2sp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/foxes"
+            android:id="@+id/foxesLayout"
+            android:onClick="selectTeam">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/foxesText"
+                android:text="@string/foxes"
+                android:textSize="40sp"
+                android:textColor="@color/FoxesLight"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/foxes"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- SLIZARD LIZARDS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:paddingTop="2sp"
+        android:paddingBottom="2sp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lizards"
+            android:id="@+id/lizardsLayout"
+            android:onClick="selectTeam">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lizardText"
+                android:text="@string/lizards"
+                android:textSize="40sp"
+                android:textColor="@color/LizardsLight"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/lizards"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

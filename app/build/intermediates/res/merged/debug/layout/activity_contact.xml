@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLinLay"
+    android:padding="20dp"
+    tools:context="mkawa.okhttp.contactActivity"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/beerDataLayout">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:focusable="false"
+            android:gravity="end"
+            android:paddingRight="30dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/nameEditText" />
+
+        <LinearLayout
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mattebackground"
+            android:padding="20dp"
+            android:id="@+id/topLinLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/editboxformat">
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/drinkEditText" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp"
+                    android:id="@+id/breweryEditText" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:layout_gravity="left"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/styleEditText" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:gravity="center_horizontal">
+
+                <!-- ABV CONTAINER -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="0.33"
+                    android:paddingRight="40dp"
+                    android:id="@+id/abvLayout">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/abvHeader"
+                        android:text="abv"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:focusable="false"
+                        android:background="@drawable/editboxformat"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/abvEditText" />
+                </LinearLayout>
+
+                <!-- OZ CONTAINER -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="0.33"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:id="@+id/ozLayout">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ozHeader"
+                        android:text="oz"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/editboxformat"
+                        android:gravity="center"
+                        android:id="@+id/ozEditText" />
+                </LinearLayout>
+
+                <!-- IBU CONTAINER -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="0.33"
+                    android:paddingLeft="40dp"
+                    android:id="@+id/ibuLayout">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ibuHeader"
+                        android:text="ibu"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:focusable="false"
+                        android:background="@drawable/editboxformat"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/ibuEditText" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_below="@+id/beerDataLayout"
+        android:layout_above="@+id/buttonLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".4"
+                    android:paddingBottom="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:background="@drawable/mattebackground"
+                        android:id="@+id/tokenList">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/blackheart"
+                            android:adjustViewBounds="true" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.6"
+                    android:paddingTop="10dp"
+                    android:orientation="vertical"
+                    android:id="@+id/userStatChart">
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttonLayout">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Send"
+            android:id="@+id/sendButton"
+            android:background = "@drawable/roundedbutton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
